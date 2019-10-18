@@ -27,6 +27,7 @@ function add($dataadd){
     $nama    = htmlspecialchars($dataadd["nama"]);
     $jurusan = htmlspecialchars($dataadd["jurusan"]);
     $email   = htmlspecialchars($dataadd["email"]);
+    //lalala
 
     //query insert data ke database
     $sql = "INSERT INTO anggota
